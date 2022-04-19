@@ -1,0 +1,60 @@
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+.container{
+  background: rgba(0, 0, 0, 0.4);
+  margin: auto;
+  margin-top: 150px;
+  width: 1000px;
+  color:lime;
+  padding:75px;
+  border-radius: 15px;
+}
+
+#logoimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+
+}
+
+#logotext{
+  text-align: center;
+}
+
+nav{
+  background: lime;
+  text-align: center;
+}
+
+main{
+  color: white;
+}
+main > h3{
+   display: inline-block;
+}
+
+.batteriaMedioCarica{
+  background: orange;
+  height: 25px;
+  width: 50%;
+}
+
+.batteriaCarica{
+  background: green;
+  height: 25px;
+  width: 65%;
+}
+
+.batteriaScarica{
+  background: darkred;
+  height: 25px;
+  width: 25%;
+}
+
+footer{
+  text-align: center;
+  color: grey;
+}
